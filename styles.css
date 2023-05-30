@@ -1,0 +1,88 @@
+*{
+    background-color: #ecf011;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+
+}
+.logo{
+    padding-top: 10px;
+    padding-left: 10px;
+    width: 10%;
+}
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+.text-area{
+    border: none;
+    color: #09121d;
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+::placeholder{color: #0a7160;}
+.text-area:focus{
+    outline:none;
+}
+.mensaje{
+    background: rgb(255, 255, 255);
+    background-image: url("./img/goku.png"  ) ;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    border: none;
+    border-radius: 24px;
+    color:#0A3871;
+    height: 780px;
+    width: 400px;
+    margin-left: 798px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: fixed;
+    
+    
+}
+.mensaje:focus{
+    outline: none;
+}
+.botones{
+    display: flex;
+    margin-top: 18px;
+
+}
+.btn-encriptar{
+    background-color: #c92610;
+    border: 1px solid #da360d;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+    margin-right: 10px;
+}
+.btn-desencriptar{
+    background-color: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+.btn-copiar{
+    position: absolute;
+    margin-top: 700px;
+    margin-left: 180px;
+    background-color: #e21608;
+    border: 1px solid #0bd415;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 336px;
+}
+.informacion{
+    color: #2813e0;
+    font-size: 18px;
+}
